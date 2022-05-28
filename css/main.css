@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+img{
+  vertical-align: middle;
+}
+
+.header{
+  margin-bottom: 80px;
+}
+
+/* Nuqtalar rasmi keyingi dars uchun */
+/* .img-position{
+  position: absolute;
+  right: -35px;
+  top: 162px;
+}
+
+.img-vector{
+  position: absolute;
+  right: 600px;
+  top: 15;
+} */
+
+.container{
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 41px;
+}
+
+.header-list{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 545px;
+}
+
+.header-link{
+  text-decoration: none;
+  color: #1F1534;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+}
+
+.header-link-active{
+  font-weight: bold;
+  opacity: 1;
+}
+
+.left-side{
+  width: 545px;
+}
+
+
+/* HERO */
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 109px;
+}
+
+.left-side{
+  width: 445px;
+}
+
+.hero-heading{
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.hero-text{
+  margin: 0;
+  margin-bottom: 45px;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+}
+
+.hero-link{
+  display: inline-block;
+  width: 200;
+  height: 56;
+  text-decoration: none;
+  background-color: #458FF6;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+}
+
+.our{
+  text-align: center;
+}
+
+.line{
+  display: inline-block;
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: black;
+  border: none;
+}
+
+.ourdagi_hr{
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: black;
+  border: none;
+}
+
+.wrapper{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Our-Services{
+  display: flex;
+  list-style-type: none;
+  position: relative;
+}
+
+
+.organ{
+  border-radius: 20px;
+  background-color: #f1f6f6;
+  padding: 10px;
+  width: 35%;
+  margin: 10px;
+  z-index: 10;
+}
+
+.rasm {
+  padding: 20px 10px;
+}
+
+.more{
+  display: flex;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.learn-more{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid #458FF6;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #458FF6;
+}
+
+.download{
+  text-decoration: none;
+  color: #458FF6;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  width: 200;
+  height: 56;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid #458FF6;
+}
+
+
+/* FEEDBACK */
+
+.feedback{
+  margin-bottom: 220px;
+}
+
+.feedback-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-top{
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 68px 100px 75px 100px;
+  margin-bottom: 46px;
+}
+
+.feedback-heading{
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 48px;
+  color: white;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+.feedback-line{
+  background-color: white;
+  margin-bottom: 77px;
+}
+
+.feedback-box{
+  display: flex;
+  align-items: center;
+}
+
+.feedback-inner-left{
+  display: flex;
+  align-items: center;
+  margin-right: 110px;
+}
+
+.feedback-person-img{
+  border-radius: 50%;
+  margin-right: 30px;
+  border: 4px solid #fff;
+}
+
+.feedback-inner-text-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-person-name{
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.feedback-person-text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0.8;
+  color: white;
+  margin: 0;
+}
+
+.feedback-inner-text{
+  width: 420px;
+  font-weight: 400px;
+  font-size: 19px;
+  line-height: 30px;
+  margin: 0px;
+  color: white;
+}
+
+.feedback-arrow-left{
+  opacity: 0.4;
+}
+
+.carusel-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 82px;
+  margin-right: 82px ;
+}
+
+.feedback-bottom{
+  display: flex;
+  align-items: center;
+}
+
+.carusel-item{
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  background: #5A98F2;
+  opacity: 0.3;
+  border-radius: 50%;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.carusel-item-active{
+  opacity: 1;
+}
+
+/* Ambulance */
+
+.ambulance-title{
+  text-align: center;
+}
+
+.distance{
+  margin-bottom: 72px;
+}
+
+.red{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 69px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dimgray{
+  background-color: rgb(227, 250, 182);
+  width: 350px;
+  height: 480px;
+  border-radius: 25px;
+}
+
+.birinchi-rasm{
+  width: 350px;
+  margin-bottom: 22px;
+  border-radius: 25px;
+}
+
+.uchtasi1{
+  margin-left: 33px;
+  margin-right: 51px;
+}
+.one-title-text{
+  color: #7D7987;
+}
+
+/* Footer */
+.container-1{
+  background-color: #458FF6;
+  width: 100%;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.traf{
+  width: 500px;
+}
+
+.container-1{
+  display: flex;
+}
+
+.yonn{
+  display: flex;
+  list-style-type: none;
+}
+
+.jallod{
+  margin-right: 30px;
+}
+.qani{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.chap-tomon{
+  margin-left: 50px;
+}
+
+.rasmcha{
+  width: 200px;
+  border-radius: 5px;
+}
